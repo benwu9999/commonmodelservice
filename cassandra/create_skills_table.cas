@@ -1,0 +1,6 @@
+use commonmodelservice;
+
+CREATE TABLE jobs (
+	skillId uuid PRIMARY KEY,
+	description text
+);
