@@ -5,7 +5,7 @@ import java.util.UUID;
 import com.datastax.driver.mapping.annotations.PartitionKey;
 import com.datastax.driver.mapping.annotations.Table;
 
-@Table(name = "skills")
+@Table(keyspace = "commonmodelservice", name = "skills")
 public class Skill {
 	
 	@PartitionKey
